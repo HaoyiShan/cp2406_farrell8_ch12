@@ -1,9 +1,14 @@
 public class DebugEmployeeIDException extends Exception
 {
-   public DebugEmployeeIDException()
+   private static final String s = " " ;
+
+   public DebugEmployeeIDException(String s)
+
    {
       super(s);
+
    }
 }
+
 
 
